@@ -4,9 +4,9 @@ import {
 } from 'react-icons/fi';
 
 const Socials = () => (
-  <div className="flex ml-10">
+  <div className="flex m-auto md:m-5">
     <a
-      className="pr-20 md:pr-3"
+      className="pr-14 md:pr-5"
       href="jimohridwanlekan@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
@@ -15,7 +15,7 @@ const Socials = () => (
       <FiMail className="text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
     <a
-      className="pr-20 md:pr-3"
+      className="pr-14 md:pr-5"
       href="https://github.com/d2ndjim?tab=repositories"
       target="_blank"
       rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const Socials = () => (
       <FiGithub className="text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
     <a
-      className="pr-20 md:pr-3"
+      className="pr-14 md:pr-5"
       href="https://www.linkedin.com/in/lekanj/"
       target="_blank"
       rel="noopener noreferrer"
@@ -33,7 +33,6 @@ const Socials = () => (
       <FiLinkedin className="text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
     <a
-      className="md:pr-3"
       href="https://twitter.com/d2ndjim_"
       target="_blank"
       rel="noopener noreferrer"
