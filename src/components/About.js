@@ -1,13 +1,24 @@
 import React from 'react';
+import 'aos/dist/aos.css';
 
 const About = () => (
-  <div className="mt-20 mb-20 bg-[#E8E8FF] pt-4 px-4 pb-0">
-    <div className="mr-10 ml-10 mt-10 bg-[#F9F9FA] pt-0 px-0 pb-48 rounded-lg">
+  <div id="about" className="mt-20 mb-20 bg-[#E8E8FF] pt-4 px-4 pb-0">
+    <div className="mt-4 md:mr-10 md:ml-10 md:mt-10 bg-[#F9F9FA] pt-0 px-0 pb-8 rounded-lg">
       <div className="bg-[#FFFFFF] p-2">
-        <h2 className="text-center font-bold">About Me</h2>
+        <h2 className="text-center font-bold text-[#0E0842]">About Me</h2>
       </div>
-      <div className="pb-28 m-10">
-        <p>Lorem Ipsum ffhffjjlxnjdmndjndndndndndndndndnd</p>
+      <div data-aos="fade-right" className="m-10">
+        <p className="text-[#413C6A] font-bold text-base leading-8 md:text-center">
+          I&apos;m a Software Developer from Lagos, Nigeria. I have a serious
+          passion for building accessible and dynamic web applications that
+          contribute to great user experiences. I&apos;ve spent the last several
+          months in a Remote Environment working with JavaScript, CSS, React,
+          and Redux. I started out in tech doing data science and Machine
+          learning. With the goal of creating special, niche corners of the web,
+          I have been able to collaborate with talented developers from across
+          Africa and Europe while building some unique projects. I&apos;m also a
+          sports fanatic😃.
+        </p>
       </div>
     </div>
   </div>

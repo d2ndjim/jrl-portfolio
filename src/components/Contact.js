@@ -8,9 +8,9 @@ const Contact = () => {
     return <p>Thank you for reaching out! Will reach out soon as possible</p>;
   }
   return (
-    <>
-      <div className="m-10" data-aos="slide-up">
-        <h1 className="text-3xl font-bold text-[#413C6A] md:text-4xl">
+    <div className="bg-[#E8E8FF]">
+      <div className="m-10 pt-6" data-aos="slide-up">
+        <h1 className="text-3xl font-bold text-[#0E0842] md:text-4xl">
           Contact Me
         </h1>
         <p className="text-xl text-[#413C6A]">
@@ -22,7 +22,7 @@ const Contact = () => {
       <form
         onSubmit={handleSubmit}
         id="contact"
-        className="m-10 mb-20 md:w-3/5"
+        className="m-10 pb-4 md:w-3/5"
         data-aos="slide-up"
       >
         <label htmlFor="name" className="block ">
@@ -30,7 +30,7 @@ const Contact = () => {
           <input
             name="name"
             type="text"
-            className="mt-1 mb-2 block w-full h-11 rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 py-1 pl-6"
+            className="mt-1 mb-2 bg-[#F9F9FA] block w-full h-11 rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 py-1 pl-6"
             placeholder=""
             required
           />
@@ -41,7 +41,7 @@ const Contact = () => {
           <input
             name="email"
             type="text"
-            className="mt-1 mb-2 h-11 block w-full rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 py-1 pl-6"
+            className="mt-1 mb-2 bg-[#F9F9FA] h-11 block w-full rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 py-1 pl-6"
             placeholder=""
             required
           />
@@ -51,7 +51,7 @@ const Contact = () => {
           <span className="text-[#413C6A]">Your Message</span>
           <textarea
             name="message"
-            className="mt-1 block w-full rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 pt-1 pl-6"
+            className="mt-1 block bg-[#F9F9FA] w-full rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 pt-1 pl-6"
             rows="3"
             required
           />
@@ -69,7 +69,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-    </>
+    </div>
   );
 };
 
