@@ -1,17 +1,21 @@
 import React from 'react';
 import profilepic from '../assets/orange-edit.png';
+import Contact from './Contact';
 import Socials from './Socials';
 
 const Home = () => (
   <div>
-    <div id="home" className="flex flex-col text-white bg-[#010105] md:grid md:grid-cols-2 md:gap-4 md:m-10 md:rounded-lg">
+    <div
+      id="home"
+      className="flex flex-col text-white bg-[#010105] md:grid md:grid-cols-2 md:gap-4 md:m-10 md:rounded-lg"
+    >
       <div>
         <h1 className="text-3xl m-10 text-left font-bold md:text-4xl">
           Hi, I&apos;m Lekan,
           <br />
           Software Developer.
         </h1>
-        <p className="text-base max-w-[95%] text-left m-10 md:text-xl">
+        <p className="text-base max-w-[95%] text-left m-10 md:text-xl text-[#FBFBFB]">
           I&apos;m a software developer specialized in building exceptional
           digital experiences. My focus is on building accessible and human
           centered products.
@@ -30,6 +34,7 @@ const Home = () => (
         <img src={profilepic} alt="lekan" className="rounded-xl" />
       </div>
     </div>
+    <Contact />
   </div>
 );
 
