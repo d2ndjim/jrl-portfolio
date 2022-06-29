@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('mvolazwr');
@@ -8,8 +9,10 @@ const Contact = () => {
   }
   return (
     <>
-      <div className="m-10">
-        <h1 className="text-3xl font-bold text-[#413C6A] md:text-4xl">Contact Me</h1>
+      <div className="m-10" data-aos="slide-up">
+        <h1 className="text-3xl font-bold text-[#413C6A] md:text-4xl">
+          Contact Me
+        </h1>
         <p className="text-xl text-[#413C6A]">
           If you&apos;ve got a project you&apos;d like me to work on, a request
           or questions you&apos;d like me to answer, don&apos;t hesitate to
@@ -20,6 +23,7 @@ const Contact = () => {
         onSubmit={handleSubmit}
         id="contact"
         className="m-10 mb-20 md:w-3/5"
+        data-aos="slide-up"
       >
         <label htmlFor="name" className="block ">
           <span className="text-[#413C6A]">Your Full name</span>
