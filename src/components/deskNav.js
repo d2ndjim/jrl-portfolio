@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
@@ -11,12 +10,13 @@ const DeskNav = () => {
   const [activeNav, setActiveNav] = useState('#home');
   return (
     <nav>
-      <Link
-        to="/"
+      <a
+        href="#home"
+        onClick={() => setActiveNav('#home')}
         className={activeNav === '#home' ? 'active' : ''}
       >
         <AiOutlineHome />
-      </Link>
+      </a>
       <a
         href="#about"
         onClick={() => setActiveNav('#about')}
@@ -31,12 +31,13 @@ const DeskNav = () => {
       >
         <BiBook />
       </a>
-      <Link
-        to="/projects"
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#portfolio' ? 'active' : ''}
       >
         <RiServiceLine />
-      </Link>
+      </a>
       <a
         href="#contact"
         onClick={() => setActiveNav('#contact')}

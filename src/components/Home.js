@@ -4,6 +4,8 @@ import profilepic from '../assets/orange-edit.png';
 import Contact from './Contact';
 import Socials from './Socials';
 import About from './About';
+import Experience from './Experience';
+// import Projects from './projects/Projects';
 import 'aos/dist/aos.css';
 
 const Home = () => {
@@ -42,6 +44,8 @@ const Home = () => {
         </div>
       </div>
       <About />
+      <Experience />
+      {/* <Projects /> */}
       <Contact />
     </div>
   );
