@@ -5,7 +5,7 @@ const About = () => (
   <div id="about" className="mt-20 mb-10 bg-[#E8E8FF] pt-4 px-4 pb-0">
     <div className="mt-4 md:mr-10 md:ml-10 md:mt-10 bg-[#F9F9FA] pt-0 px-0 pb-8 rounded-lg">
       <div data-aos="slide-up" className="bg-[#FFFFFF] p-2">
-        <h2 className="text-center font-bold text-[#0E0842]">About Me</h2>
+        <h2 className="text-center font-bold text-4xl text-[#0E0842]">About Me</h2>
       </div>
       <div data-aos="slide-up" className="m-10">
         <p className="text-[#413C6A] font-bold text-base leading-8 md:text-center">
