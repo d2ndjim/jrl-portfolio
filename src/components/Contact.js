@@ -23,7 +23,7 @@ const Contact = () => {
         onSubmit={handleSubmit}
         id="contact"
         className="m-10 pb-4 md:w-3/5"
-        data-aos="slide-up"
+        data-aos="fade-right"
       >
         <label htmlFor="name" className="block ">
           <span className="text-[#413C6A]">Your Full name</span>

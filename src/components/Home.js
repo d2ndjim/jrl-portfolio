@@ -1,11 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import profilepic from '../assets/orange-edit.png';
-import Contact from './Contact';
 import Socials from './Socials';
-import About from './About';
-import Experience from './Experience';
-import Portfolio from './Portfolio';
 import 'aos/dist/aos.css';
 
 const Home = () => {
@@ -43,10 +39,6 @@ const Home = () => {
           <img src={profilepic} alt="lekan" className="rounded-xl" />
         </div>
       </div>
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
     </div>
   );
 };

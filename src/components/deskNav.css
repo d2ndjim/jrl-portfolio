@@ -10,7 +10,7 @@ nav {
   bottom: 2rem;
   display: flex;
   gap: 0.8rem;
-  color: white;
+  color: #7000FF;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
