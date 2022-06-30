@@ -37,7 +37,7 @@ const Portfolio = () => {
                 </a>
                 <a
                   href={project.live}
-                  className="border-2 px-6 md:px-10 rounded hover:bg-[#7000FF] hover:bg-[#E8E8FF] hover:text-black"
+                  className="border-2 px-6 md:px-10 rounded hover:bg-[#E8E8FF] hover:text-black"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Check project demo"
