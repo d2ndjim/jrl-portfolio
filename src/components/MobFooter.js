@@ -2,7 +2,7 @@ import React from 'react';
 import Socials from './Socials';
 
 const Footer = () => (
-  <div className="bg-[#010105] flex gap-3 flex-col justify-center px-20 pb-36 pt-6 md:hidden">
+  <div className="bg-[#010105] flex gap-4 flex-col justify-center items-center px-20 pb-36 pt-6 md:hidden">
     <div>
       <Socials />
     </div>
