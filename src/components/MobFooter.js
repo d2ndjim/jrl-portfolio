@@ -6,7 +6,7 @@ const Footer = () => (
     <div>
       <Socials />
     </div>
-    <div className="text-[#B5B4B8]">
+    <div className="text-[#B5B4B8] font-bold">
       <small>&copy; JRL 2022. All rights reserved.</small>
     </div>
   </div>

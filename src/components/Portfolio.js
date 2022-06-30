@@ -8,7 +8,7 @@ const Portfolio = () => {
     <>
       <section id="portfolio">
         <h2 className="text-center font-bold text-4xl text-[#0E0842]">
-          Portfolio
+          My Portfolio
         </h2>
         <div className="flex flex-col m-10 gap-6 md:grid md:grid-cols-2">
           {projects.map((project) => (
