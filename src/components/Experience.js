@@ -7,7 +7,7 @@ const Experience = () => (
     <div className="hidden md:grid md:grid-cols-2 md:gap-4">
       <div
         data-aos="zoom-out-up"
-        className="bg-[#010105] text-[#FBFBFB] m-4 rounded-xl"
+        className="bg-[#E8E8FF] text-[#0E0842] m-4 rounded-xl"
       >
         <ul className="m-10 grid grid-cols-2 gap-2">
           <li className="flex gap-2">
@@ -70,7 +70,7 @@ const Experience = () => (
       </div>
       <div
         data-aos="slide-up"
-        className="bg-[#010105] text-[#FBFBFB] m-4 rounded-xl"
+        className="bg-[#E8E8FF] text-[#0E0842] m-4 rounded-xl"
       >
         <ul className="m-10 grid grid-cols-2 gap-2">
           <li className="flex gap-2">
