@@ -8,7 +8,7 @@ const About = () => (
         <h2 className="text-center font-bold text-4xl text-[#0E0842]">About Me</h2>
       </div>
       <div data-aos="slide-up" className="m-10">
-        <p className="text-[#413C6A] font-bold text-base leading-8 md:text-center">
+        <p className="text-[#413C6A] font-bold md:text-base md:leading-8 md:text-center">
           I&apos;m a Software Developer from Lagos, Nigeria. I have a serious
           passion for building accessible and dynamic web applications that
           contribute to great user experiences. I&apos;ve spent the last several

@@ -32,12 +32,12 @@ const people = [
   {
     id: 4,
     image:
-      'https://user-images.githubusercontent.com/73438276/176236493-0f995d4d-6d2f-432a-973b-2c001149d72e.png',
-    name: 'Fyyur',
+      'https://user-images.githubusercontent.com/73438276/176701861-1de6d759-7437-47ff-949e-cafeb5cc1c8f.png',
+    name: 'Meal Recipe',
     quote:
       'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
-    repo: 'https://github.com/d2ndjim/bookstore',
-    live: 'https://d2ndjim-bookstore.netlify.app/',
+    repo: 'https://github.com/d2ndjim/FoodRecipe',
+    live: 'https://d2ndjim.github.io/FoodRecipe/',
   },
 ];
 

@@ -12,7 +12,7 @@ const Socials = () => (
       rel="noopener noreferrer"
       aria-label="Send me an email"
     >
-      <FiMail className="text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+      <FiMail className="text-[#B5B4B8] md:text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
     <a
       className="pr-14 md:pr-5"
@@ -21,7 +21,7 @@ const Socials = () => (
       rel="noopener noreferrer"
       aria-label="My Github profile"
     >
-      <FiGithub className="text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+      <FiGithub className="text-[#B5B4B8] md:text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
     <a
       className="pr-14 md:pr-5"
@@ -30,7 +30,7 @@ const Socials = () => (
       rel="noopener noreferrer"
       aria-label="My Linkedin profile"
     >
-      <FiLinkedin className="text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+      <FiLinkedin className="text-[#B5B4B8] md:text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
     <a
       href="https://twitter.com/d2ndjim_"
@@ -38,7 +38,7 @@ const Socials = () => (
       rel="noopener noreferrer"
       aria-label="My Twitter profile"
     >
-      <FiTwitter className="text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
+      <FiTwitter className="text-[#B5B4B8] md:text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[300ms]" />
     </a>
   </div>
 );
