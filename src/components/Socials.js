@@ -7,7 +7,7 @@ const Socials = () => (
   <div className="flex m-auto md:m-5">
     <a
       className="pr-14 md:pr-5"
-      href="jimohridwanlekan@gmail.com"
+      href="mailto:jimohridwanlekan@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Send me an email"
