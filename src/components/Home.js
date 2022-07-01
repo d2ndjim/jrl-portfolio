@@ -9,7 +9,7 @@ const Home = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div>
+    <>
       <div
         id="home"
         className="flex flex-col text-white bg-[#010105] md:grid md:grid-cols-2 md:gap-4 md:m-10 md:rounded-lg"
@@ -39,7 +39,7 @@ const Home = () => {
           <img src={profilepic} alt="lekan" className="rounded-xl" />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
