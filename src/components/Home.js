@@ -28,7 +28,7 @@ const Home = () => {
           <div className="flex flex-col gap-5 md:grid md:grid-cols-2">
             <a
               href="#contact"
-              className="border-solid text-center border-black border-2 ml-10 mr-10 p-2 rounded-lg bg-[#7000FF] md:py-5"
+              className="border-solid text-center border-black hover:bg-[#E8E8FF] hover:text-black border-2 ml-10 mr-10 p-2 rounded-lg bg-[#7000FF] md:py-5"
             >
               Let&apos;s Chat
             </a>
