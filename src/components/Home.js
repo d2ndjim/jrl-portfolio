@@ -25,10 +25,10 @@ const Home = () => {
             digital experiences. My focus is on building accessible and human
             centered products.
           </p>
-          <div className="flex flex-col gap-5 md:grid md:grid-cols-2">
+          <div className="flex flex-col gap-5 md:grid md:grid-cols-2 md:items-center">
             <a
               href="#contact"
-              className="border-solid text-center border-black hover:bg-[#E8E8FF] hover:text-black border-2 ml-10 mr-10 p-2 rounded-lg bg-[#7000FF] md:py-5"
+              className="border-solid text-center border-black hover:bg-[#E8E8FF] hover:text-black border-2 ml-10 mr-10 p-2 rounded-lg bg-[#7000FF] md:px-2 md:py-2 md:m-4"
             >
               Let&apos;s Chat
             </a>
