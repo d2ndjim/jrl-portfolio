@@ -12,12 +12,12 @@ const people = [
   {
     id: 2,
     image:
-      'https://user-images.githubusercontent.com/73438276/176234092-d369fb3f-7802-4737-8446-2c8157492dee.png',
-    name: 'Book Store',
+      'https://user-images.githubusercontent.com/73438276/176937546-91166ab8-031b-45be-b69f-8488002f2048.png',
+    name: 'User Dashboard',
     quote:
       'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
-    repo: 'https://github.com/d2ndjim/bookstore',
-    live: 'https://d2ndjim-bookstore.netlify.app/',
+    repo: 'https://github.com/d2ndjim/time-tracking',
+    live: 'https://d2ndjim.github.io/time-tracking/',
   },
   {
     id: 3,
