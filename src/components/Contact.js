@@ -5,7 +5,11 @@ import 'aos/dist/aos.css';
 const Contact = () => {
   const [state, handleSubmit] = useForm('mvolazwr');
   if (state.succeeded) {
-    return <p>Thank you for reaching out! Will reach out soon as possible</p>;
+    return (
+      <p className="m-10 text-[#0E0842] text-lg font-bold">
+        Thank you for reaching out! Will reach out soon as possible
+      </p>
+    );
   }
   return (
     <div className="bg-[#E8E8FF]">
