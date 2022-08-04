@@ -1,16 +1,29 @@
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import 'aos/dist/aos.css';
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm('mvolazwr');
-  if (state.succeeded) {
-    return (
-      <p className="m-10 text-[#0E0842] text-lg font-bold">
-        Thank you for reaching out! Will reach out soon as possible
-      </p>
-    );
+  const [result, showResult] = useState(false);
+  const formRef = useRef();
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_nz1c1ys',
+        'template_cut2oj8',
+        formRef.current,
+        '_z0jo4cRGH7tv78WO',
+      )
+      .then((result) => result.text);
+    e.target.reset();
+    showResult(true);
   }
+
+  setTimeout(() => {
+    showResult(false);
+  }, 5000);
+
   return (
     <div className="bg-[#E8E8FF]">
       <div className="m-10 pt-6" data-aos="slide-up">
@@ -24,7 +37,8 @@ const Contact = () => {
         </p>
       </div>
       <form
-        onSubmit={handleSubmit}
+        onSubmit={sendEmail}
+        ref={formRef}
         id="contact"
         className="m-10 pb-4 md:w-3/5"
         data-aos="fade-right"
@@ -38,18 +52,16 @@ const Contact = () => {
             placeholder=""
             required
           />
-          <ValidationError prefix="Name" field="name" errors={state.errors} />
         </label>
         <label htmlFor="email" className="block ">
           <span className="text-[#413C6A]">Your Email address</span>
           <input
             name="email"
-            type="text"
+            type="email"
             className="mt-1 mb-2 bg-[#F9F9FA] h-11 block w-full rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 py-1 pl-6"
             placeholder=""
             required
           />
-          <ValidationError prefix="Email" field="email" errors={state.errors} />
         </label>
         <label htmlFor="message" className="block ">
           <span className="text-[#413C6A]">Your Message</span>
@@ -59,19 +71,21 @@ const Contact = () => {
             rows="3"
             required
           />
-          <ValidationError
-            prefix="Message"
-            field="message"
-            errors={state.errors}
-          />
         </label>
         <button
           type="submit"
-          disabled={state.submitting}
           className="border px-8 py-2 mt-6 py-1 bg-[#7000FF] rounded-lg hover:bg-[#010105] hover:text-white hover:border ease-in-out duration-700 transition-colors text-white font-bold w-max sticky z-[11]"
         >
           Send Message
         </button>
+        <div className="mt-4">
+          {result && (
+            <h2 className="text-base md:text-xl text-[#413C6A] font-bold">
+              Thanks for reaching out!. I&apos;ll get back to you within
+              24 hours.
+            </h2>
+          )}
+        </div>
       </form>
     </div>
   );
