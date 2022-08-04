@@ -66,9 +66,10 @@ const Contact = () => {
         <label htmlFor="message" className="block ">
           <span className="text-[#413C6A]">Your Message</span>
           <textarea
+            id="textarea"
             name="message"
             className="mt-1 block bg-[#F9F9FA] w-full rounded-md focus:border-b focus:border-[#7000FF] focus:ring-0 outline-0 pt-1 pl-6"
-            rows="3"
+            rows="4"
             required
           />
         </label>

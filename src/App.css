@@ -12,3 +12,7 @@ body {
 body {
   background-color: #fff;
 }
+
+#textarea {
+  resize: none;
+}
