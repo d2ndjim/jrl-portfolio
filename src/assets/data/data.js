@@ -1,4 +1,4 @@
-const people = [
+const projects = [
   {
     id: 1,
     image:
@@ -32,6 +32,16 @@ const people = [
   {
     id: 4,
     image:
+      'https://user-images.githubusercontent.com/73438276/176235529-cf97e8b3-f3fe-4031-a1c1-af9536d82019.png',
+    name: 'Movie Finder',
+    quote:
+      'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+    repo: 'https://github.com/d2ndjim/Film-Finder',
+    live: 'https://d2ndjim.github.io/Film-Finder/',
+  },
+  {
+    id: 4,
+    image:
       'https://user-images.githubusercontent.com/73438276/176937546-91166ab8-031b-45be-b69f-8488002f2048.png',
     name: 'User Dashboard',
     quote:
@@ -41,7 +51,7 @@ const people = [
   },
 ];
 
-export default people;
+export default projects;
 
   <div className="info">
     <article>
