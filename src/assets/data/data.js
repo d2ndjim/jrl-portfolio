@@ -22,12 +22,12 @@ const projects = [
   {
     id: 3,
     image:
-      'https://user-images.githubusercontent.com/73438276/176235529-cf97e8b3-f3fe-4031-a1c1-af9536d82019.png',
-    name: 'Movie Finder',
+      'https://user-images.githubusercontent.com/73438276/193571229-37e3561b-3159-4ac9-ab50-ae7192c2a433.png',
+    name: 'AES Service',
     quote:
       'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
-    repo: 'https://github.com/d2ndjim/Film-Finder',
-    live: 'https://d2ndjim.github.io/Film-Finder/',
+    repo: 'https://github.com/d2ndjim/aes-service',
+    live: 'https://aes-service.vercel.app/',
   },
   {
     id: 4,
