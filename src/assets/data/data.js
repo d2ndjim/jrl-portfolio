@@ -12,12 +12,12 @@ const people = [
   {
     id: 2,
     image:
-      'https://user-images.githubusercontent.com/73438276/176937546-91166ab8-031b-45be-b69f-8488002f2048.png',
-    name: 'User Dashboard',
+      'https://user-images.githubusercontent.com/73438276/193570129-a83eae83-71bb-45d9-912d-8fd312aa0aab.png',
+    name: 'Short Let',
     quote:
-      'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
-    repo: 'https://github.com/d2ndjim/time-tracking',
-    live: 'https://d2ndjim.github.io/time-tracking/',
+      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+    repo: 'https://github.com/d2ndjim/short-let-frontend',
+    live: 'https://short-let-island.vercel.app/',
   },
   {
     id: 3,
@@ -32,12 +32,12 @@ const people = [
   {
     id: 4,
     image:
-      'https://user-images.githubusercontent.com/73438276/176701861-1de6d759-7437-47ff-949e-cafeb5cc1c8f.png',
-    name: 'Meal Recipe',
+      'https://user-images.githubusercontent.com/73438276/176937546-91166ab8-031b-45be-b69f-8488002f2048.png',
+    name: 'User Dashboard',
     quote:
-      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
-    repo: 'https://github.com/d2ndjim/FoodRecipe',
-    live: 'https://d2ndjim.github.io/FoodRecipe/',
+      'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+    repo: 'https://github.com/d2ndjim/time-tracking',
+    live: 'https://d2ndjim.github.io/time-tracking/',
   },
 ];
 
