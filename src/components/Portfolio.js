@@ -15,7 +15,7 @@ const Portfolio = () => {
             <div
               data-aos="zoom-in"
               key={project.id}
-              className="bg-[#010105] text-[#FBFBFB] pt-10 px-10 pb-16 rounded-xl"
+              className="bg-[#010105] text-[#FBFBFB] pt-10 px-4 pb-16 rounded-xl"
             >
               <img
                 className="rounded mb-4"
@@ -26,7 +26,7 @@ const Portfolio = () => {
                 <h4 className="pb-4 text-center font-bold text-xl md:text-3xl">
                   {project.name}
                 </h4>
-                <p className="pb-6 mx-2">{project.description}</p>
+                <p className="pb-6 text-xs md:text-base md:mx-2 italic">{project.description}</p>
               </div>
               <div className="flex gap-6 justify-center">
                 <a

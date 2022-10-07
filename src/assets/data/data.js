@@ -25,7 +25,7 @@ const projects = [
       'https://user-images.githubusercontent.com/73438276/193571229-37e3561b-3159-4ac9-ab50-ae7192c2a433.png',
     name: 'AES Service',
     description:
-      'This is an application that helps users to make electrical engineering or repair appointments. Built using React, Redux and TailwindCSS',
+      'This is an application that helps users to make electrical engineering or repair appointments. Built using React, Redux and TailwindCSS.',
     repo: 'https://github.com/d2ndjim/aes-service',
     live: 'https://aes-service.vercel.app/',
   },
@@ -35,7 +35,7 @@ const projects = [
       'https://user-images.githubusercontent.com/73438276/176235529-cf97e8b3-f3fe-4031-a1c1-af9536d82019.png',
     name: 'Movie Finder',
     description:
-      'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+      'This Application uses the movie DB API to help users find their favorite genres of movies. Built with HTML, CSS, JavaScript and RestAPI.',
     repo: 'https://github.com/d2ndjim/Film-Finder',
     live: 'https://d2ndjim.github.io/Film-Finder/',
   },
