@@ -22,9 +22,12 @@ const Portfolio = () => {
                 src={project.image}
                 alt={project.name}
               />
-              <h4 className="pb-10 text-center font-bold text-xl md:text-3xl">
-                {project.name}
-              </h4>
+              <div>
+                <h4 className="pb-4 text-center font-bold text-xl md:text-3xl">
+                  {project.name}
+                </h4>
+                <p className="pb-6 mx-2">{project.description}</p>
+              </div>
               <div className="flex gap-6 justify-center">
                 <a
                   href={project.repo}
