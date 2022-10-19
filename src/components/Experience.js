@@ -46,6 +46,18 @@ const Experience = () => (
             <BsFillPatchCheckFill />
             <h4>Netlify/Heroku</h4>
           </li>
+          <li className="flex gap-2">
+            <BsFillPatchCheckFill />
+            <h4>Ruby</h4>
+          </li>
+          <li className="flex gap-2">
+            <BsFillPatchCheckFill />
+            <h4>Ruby on Rails</h4>
+          </li>
+          <li className="flex gap-2">
+            <BsFillPatchCheckFill />
+            <h4>Rspec</h4>
+          </li>
         </ul>
       </div>
       <div data-aos="fade-left" className="m-10">
@@ -74,40 +86,40 @@ const Experience = () => (
       >
         <ul className="m-10 grid grid-cols-2 gap-2">
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>JavaScript</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>React.js</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>Redux</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>Tailwind CSS</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>Git/GitHub</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>PostgreSQL/MySQL</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>Python</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>Jest</h4>
           </li>
           <li className="flex gap-2">
-            {/* <BsFillPatchCheckFill /> */}
             <h4>Netlify/Heroku</h4>
+          </li>
+          <li className="flex gap-2">
+            <h4>Ruby</h4>
+          </li>
+          <li className="flex gap-2">
+            <h4>Ruby on Rails</h4>
+          </li>
+          <li className="flex gap-2">
+            <h4>Rspec</h4>
           </li>
         </ul>
       </div>
