@@ -17,7 +17,7 @@ const projects = [
     description:
       'A web application that allows users can make short lets or reservations. Built using React, Redux, Ruby on Rails, Postgresql and BootStrap.',
     repo: 'https://github.com/d2ndjim/short-let-frontend',
-    live: 'https://short-let-island.vercel.app/',
+    live: 'https://short-let-islands.vercel.app/',
   },
   {
     id: 3,
