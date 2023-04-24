@@ -29,18 +29,19 @@ const Portfolio = () => {
                 <p className="pb-6 text-xs md:text-base md:mx-2 italic">{project.description}</p>
               </div>
               <div className="flex gap-6 justify-center">
-                <a
+                {/* <a
                   href={project.repo}
-                  className="border-2 px-6 md:px-10 rounded bg-[#7000FF] hover:bg-[#E8E8FF] hover:text-black"
+                  className="border-2 px-6 md:px-10 rounded bg-[#7000FF]
+                   hover:bg-[#E8E8FF] hover:text-black"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Check project source"
                 >
                   Source
-                </a>
+                </a> */}
                 <a
                   href={project.live}
-                  className="border-2 px-6 md:px-10 rounded hover:bg-[#E8E8FF] hover:text-black"
+                  className="border-2 px-8 py-1 md:px-12 md:py-2 rounded bg-[#7000FF] hover:bg-[#E8E8FF] hover:text-black"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Check project demo"
