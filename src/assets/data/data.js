@@ -12,12 +12,12 @@ const projects = [
   {
     id: 2,
     image:
-      'https://user-images.githubusercontent.com/73438276/218481851-f1e45eea-6c16-4671-991c-85b9a448c8f7.png',
-    name: 'Vaccitracker',
+      'https://github.com/d2ndjim/image-testing/assets/73438276/2d7c1911-f4f0-4b41-a5fd-0c76f0693667',
+    name: 'Airbnb NextJs',
     description:
-      'A web application application that helps users track their children immunization schedule with ease, and get email reminders before the date.',
-    repo: 'https://github.com/d2ndjim/vaccitracker',
-    live: 'https://vaccitracker.vercel.app/',
+      'An Imitation of the Airbnb website built using the new NextJS 13 app router, TailwindCSS, MongoDB and Prisma.',
+    repo: 'https://github.com/d2ndjim/airbnb',
+    live: 'https://rent-project-gold.vercel.app/',
   },
   {
     id: 3,
