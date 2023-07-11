@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+  FiGithub,
+} from 'react-icons/fi';
+import {
+  HiOutlineExternalLink,
+} from 'react-icons/hi';
 import data from '../assets/data/data';
 import 'aos/dist/aos.css';
 
@@ -28,25 +34,24 @@ const Portfolio = () => {
                 </h4>
                 <p className="pb-6 text-xs md:text-base md:mx-2 italic">{project.description}</p>
               </div>
-              <div className="flex gap-6 justify-center">
-                {/* <a
+              <div className="mx-auto flex gap-8 justify-center mt-4">
+                <a
+                  className="md:pr-5"
                   href={project.repo}
-                  className="border-2 px-6 md:px-10 rounded bg-[#7000FF]
-                   hover:bg-[#E8E8FF] hover:text-black"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Check project source"
+                  aria-label="My Github profile"
                 >
-                  Source
-                </a> */}
+                  <FiGithub size={35} className="text-[#B5B4B8] md:text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[100ms]" />
+                </a>
                 <a
                   href={project.live}
-                  className="border-2 px-8 py-1 md:px-12 md:py-2 rounded bg-[#7000FF] hover:bg-[#E8E8FF] hover:text-black"
+                  className="md:pr-5"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Check project demo"
                 >
-                  Demo
+                  <HiOutlineExternalLink size={35} className="text-[#B5B4B8] md:text-[#F9F9FA] text-lg hover:scale-[1.5] hover:transition-transform hover:ease-in-out hover:duration-[100ms]" />
                 </a>
               </div>
             </div>

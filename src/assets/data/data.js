@@ -6,7 +6,7 @@ const projects = [
     name: 'Kwiksell',
     description:
       'Kwiksell is digital marketplace helps to connect business owners and consumers.',
-    repo: 'https://github.com/d2ndjim/vaccitracker',
+    repo: 'https://github.com/d2ndjim?tab=repositories',
     live: 'https://www.kwiksell.com/',
   },
   {
