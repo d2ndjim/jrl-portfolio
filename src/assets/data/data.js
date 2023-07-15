@@ -1,3 +1,5 @@
+import airbnb from '../airbnb-clone.png';
+
 const projects = [
   {
     id: 1,
@@ -11,8 +13,8 @@ const projects = [
   },
   {
     id: 2,
-    image:
-      'https://github-production-user-asset-6210df.s3.amazonaws.com/73438276/252491706-2d7c1911-f4f0-4b41-a5fd-0c76f0693667.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230710%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230710T211448Z&X-Amz-Expires=300&X-Amz-Signature=0872043a50947f12b89dc2668fd8df6105a3a4634da3d5dc8a37eef464ed1df0&X-Amz-SignedHeaders=host&actor_id=73438276&key_id=0&repo_id=508377598',
+    image: airbnb,
+    // 'https://github-production-user-asset-6210df.s3.amazonaws.com/73438276/252491706-2d7c1911-f4f0-4b41-a5fd-0c76f0693667.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230710%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230710T211448Z&X-Amz-Expires=300&X-Amz-Signature=0872043a50947f12b89dc2668fd8df6105a3a4634da3d5dc8a37eef464ed1df0&X-Amz-SignedHeaders=host&actor_id=73438276&key_id=0&repo_id=508377598',
     name: 'Airbnb NextJs',
     description:
       'An Imitation of the Airbnb website built using the new NextJS 13 app router, TailwindCSS, MongoDB and Prisma.',

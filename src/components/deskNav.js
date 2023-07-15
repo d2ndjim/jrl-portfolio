@@ -16,7 +16,7 @@ const DeskNav = () => {
         onClick={() => setActiveNav('home')}
         className={activeNav === 'home' ? 'active' : ''}
       >
-        <AiOutlineHome />
+        <AiOutlineHome size={25} />
       </Link>
       <Link
         to="about"
@@ -24,7 +24,7 @@ const DeskNav = () => {
         onClick={() => setActiveNav('about')}
         className={activeNav === 'about' ? 'active' : ''}
       >
-        <AiOutlineUser />
+        <AiOutlineUser size={25} />
       </Link>
       <Link
         to="experience"
@@ -32,7 +32,7 @@ const DeskNav = () => {
         onClick={() => setActiveNav('experience')}
         className={activeNav === 'experience' ? 'active' : ''}
       >
-        <BiBook />
+        <BiBook size={25} />
       </Link>
       <Link
         to="portfolio"
@@ -40,14 +40,14 @@ const DeskNav = () => {
         onClick={() => setActiveNav('portfolio')}
         className={activeNav === 'portfolio' ? 'active' : ''}
       >
-        <RiServiceLine />
+        <RiServiceLine size={25} />
       </Link>
       <Link
         to="contact"
         onClick={() => setActiveNav('contact')}
         className={activeNav === 'contact' ? 'active' : ''}
       >
-        <BiMessageSquareDetail />
+        <BiMessageSquareDetail size={25} />
       </Link>
     </nav>
   );
