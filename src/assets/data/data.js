@@ -1,5 +1,6 @@
 import airbnb from '../airbnb-clone.png';
 import store from '../ecomm-store.png';
+import dashboard from '../dashboard.png';
 
 const projects = [
   {
@@ -32,6 +33,15 @@ const projects = [
   },
   {
     id: 4,
+    image: dashboard,
+    name: 'Ecommerce Dahboard',
+    description:
+      'This is an Ecommerce Dashboard + CMS application that can be connected to multiple Ecommerce Store applications. Built using NextJS, Prisma,NodeJS, MySQL, and TailwindCSS.',
+    repo: 'https://github.com/d2ndjim/ecommerce-dashboard',
+    live: 'https://ecommerce-dashboard-bice.vercel.app/',
+  },
+  {
+    id: 5,
     image:
       'https://user-images.githubusercontent.com/73438276/198055620-7877987b-6156-41a8-aebc-5a8600cd6cbc.png',
     name: 'AES Service',
